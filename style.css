@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: #1F2937 */
+}
+h1{
+    margin: 0;
+}
+a {
+    color: blue; /* Set the link color to blue */
+    text-decoration: none; /* Remove the underline */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+    color: darkblue; /* Change the color on hover (you can adjust to your preference) */
+}
+/* Top Section */
+
+
+.menu-items{
+    list-style: none;
+    display: flex;
+    gap:15px;
+    padding-left: 5px;
+}
+
+.navbar{
+    width: auto;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero{
+    margin: auto;
+    height: 20vh;
+    padding: 100px;
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 24px;
+     
+}
+
+ 
+.btn-top{
+    padding: 10px;
+    margin: 10px;
+    width: 10%;
+    background-color: #3882f6;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.hero-text {
+    flex: 1; /* Allows the text to take up available space */
+}
+
+.place-holder {
+    background-color: silver;
+    width: 450px; /* Adjust the width as needed */
+    height: 250px;
+    margin-left: 20px; /* Add margin to separate the text and image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Some Random Information Section */
+.second-container{
+    height: 10vh;
+    width: auto;
+    /* margin: 15px; */
+    padding: 15px;
+    
+}
+.title2{
+    margin-top: 0px;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    font-weight: 800;
+}
+.image-container {
+    display: flex;
+     /* flex-wrap: wrap; */
+    height: auto;
+    width: 50%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.image{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border: solid;
+    border-color: #3882f6;
+ }
+
+ .image-item {
+    display: flex;
+    flex-direction: column; /* Arrange image and text vertically */
+    align-items: center; /* Center items horizontally */
+    margin: 5px; /* Adjust margin as needed */
+}
+ .under-image {
+    text-align: center; /* Center text within the container */
+    white-space: pre-wrap;
+}
+
+/* Third Container/ Quote Section */
+.third-container{
+    margin-top: 180px;
+    height: auto;
+    padding: 60px;
+    background-color: #E5E7EB;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-style: bold;
+}
+
+ 
+/* Fourth Container */
+.fourth-container{
+
+    padding: 30px;
+    padding-top: 0px;
+    text-align: center;
+    color: white;
+ }
+.call-banner{
+    background-color: #3882f6;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    height: 100px;
+    font-family: lato;
+}
+.call-title{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 26px;
+}
+
+/* Footer */
+
+.footer{
+    padding: 5px;
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    font-family: poppins;
+}
